@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us - Inferno Guardian</title>
+    <link rel="stylesheet" href="aboutus.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="icon" href="Image/infer.png">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="main-header">
+
+        <a href="index.html" class="logo-container">
+
+            <div class="circular-logo">
+                <img src="Image/infer.png" alt="Inferno Guardian Logo">
+            </div>
+
+            <span class="logo-text">
+                Inferno<span>Guardian</span>
+            </span>
+
+        </a>
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+
+                <button class="dropdown-btn"
+                    onclick="toggleDropdown(event)"
+                    aria-expanded="false">
+
+                    Features
+                    <i class="fas fa-chevron-down arrow-icon"
+                        id="dropdownArrow"></i>
+
+                </button>
+
+                <div class="dropdown-content" id="featuresMenu">
+
+                    <a href="guideline.html">
+                        <i class="fas fa-book-open"></i>
+                        Guideline
+                    </a>
+
+                    <a href="edu_mat.html">
+                        <i class="fas fa-shield-alt"></i>
+                        Educational materials
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="quiz.html">Quiz</a>
+
+            <a href="aboutus.html" class="active">About Us</a>
+
+            <div class="auth-buttons">
+
+                <button class="login-nav" onclick="openLogin()">
+                    Login
+                </button>
+
+                <button class="register-nav" onclick="openRegister()">
+                    Sign Up
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="about-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    <i class="fas fa-fire"></i>
+                    ABOUT INFERNO GUARDIAN
+                </span>
+
+                <h1>
+                    Protecting Nature.<br>
+                    <span>Preventing Wildfires.</span>
+                </h1>
+
+                <p>
+                    We are a group of Year 9 students working together
+                    to explore wildfire risks, promote preparedness,
+                    and encourage actions that protect our communities
+                    and environment.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#about-project" class="hero-btn primary">
+                        Discover Our Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#our-team" class="hero-btn secondary">
+                        Meet Our Team
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT OUR PROJECT -->
+
+        <section class="section" id="about-project">
+
+            <div class="introduction reveal">
+
+                <div class="intro-image">
+
+                    <img src="Image/image (70).png"
+                        alt="Wildfire affecting a forest">
+
+                    <div class="image-caption">
+                        <i class="fas fa-leaf"></i>
+                        Protecting Our Natural Environment
+                    </div>
+
+                </div>
+
+                <div class="intro-text">
+
+                    <span class="section-tag">OUR STORY</span>
+
+                    <h2>
+                        Who Are <span>We?</span>
+                    </h2>
+
+                    <p>
+                        We are Year 9 students working together on a
+                        Project-Based Learning (PBL) project about
+                        wildfire preparedness.
+                    </p>
+
+                    <p>
+                        Through this project, we investigate the causes
+                        and consequences of wildfires and explore how
+                        people can reduce wildfire risks before they
+                        become dangerous.
+                    </p>
+
+                    <p>
+                        We believe that understanding wildfire risks
+                        and taking responsible actions can help create
+                        safer communities and protect forests,
+                        wildlife, and natural resources.
+                    </p>
+
+                    <div class="intro-points">
+
+                        <div>
+                            <i class="fas fa-check-circle"></i>
+                            Understanding wildfire risks
+                        </div>
+
+                        <div>
+                            <i class="fas fa-check-circle"></i>
+                            Exploring prevention strategies
+                        </div>
+
+                        <div>
+                            <i class="fas fa-check-circle"></i>
+                            Protecting people and the environment
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- VISION MISSION AIM -->
+
+        <section class="section goals-section">
+
+            <div class="section-header reveal">
+
+                <span class="section-tag">WHAT DRIVES US</span>
+
+                <h2>
+                    Our <span>Purpose</span>
+                </h2>
+
+                <p>
+                    Our project is guided by three important goals
+                    that shape what we want to achieve.
+                </p>
+
+            </div>
+
+            <div class="goals">
+
+                <div class="goal reveal">
+
+                    <div class="goal-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+
+                    <h3>Our Vision</h3>
+
+                    <p>
+                        A future with fewer wildfires, healthier forests,
+                        protected wildlife, and safer communities for
+                        everyone.
+                    </p>
+
+                </div>
+
+                <div class="goal reveal">
+
+                    <div class="goal-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+
+                    <h3>Our Mission</h3>
+
+                    <p>
+                        To explore wildfire causes and risks while
+                        encouraging responsible prevention and
+                        preparedness actions.
+                    </p>
+
+                </div>
+
+                <div class="goal reveal">
+
+                    <div class="goal-icon">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+
+                    <h3>Our Aim</h3>
+
+                    <p>
+                        To help reduce wildfire threats by promoting
+                        environmental protection and safer community
+                        practices.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHY WE CREATED THIS PROJECT -->
+
+        <section class="section why-section">
+
+            <div class="section-header reveal">
+
+                <span class="section-tag">OUR REASONS</span>
+
+                <h2>
+                    Why We Created <span>This Project</span>
+                </h2>
+
+                <p>
+                    Wildfires can affect lives, ecosystems, and
+                    communities. We created this project to explore
+                    these challenges and possible solutions.
+                </p>
+
+            </div>
+
+            <div class="why-content">
+
+                <div class="why-card reveal">
+
+                    <div class="why-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Protect Our Forests</h3>
+
+                        <p>
+                            Wildfires can destroy large areas of
+                            vegetation and natural habitats. We want
+                            to understand how forests can be protected.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="why-card reveal">
+
+                    <div class="why-icon">
+                        <i class="fas fa-house-fire"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Reduce Community Risks</h3>
+
+                        <p>
+                            Wildfires can threaten homes, buildings,
+                            and essential resources. We explore ways
+                            communities can prepare before fires occur.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="why-card reveal">
+
+                    <div class="why-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Protect Wildlife</h3>
+
+                        <p>
+                            Animals can lose their habitats and food
+                            sources during wildfires. Protecting
+                            biodiversity is an important part of
+                            environmental conservation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="why-card reveal">
+
+                    <div class="why-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Understand Environmental Impacts</h3>
+
+                        <p>
+                            Wildfires can contribute to air pollution,
+                            soil damage, and ecosystem disruption.
+                            We want to investigate these environmental
+                            consequences.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT OBJECTIVES -->
+
+        <section class="section">
+
+            <div class="section-header reveal">
+
+                <span class="section-tag">WHAT WE WANT TO ACHIEVE</span>
+
+                <h2>
+                    Our Project <span>Objectives</span>
+                </h2>
+
+                <p>
+                    These objectives guide our research and help
+                    us work towards a safer and more prepared future.
+                </p>
+
+            </div>
+
+            <div class="objectives">
+
+                <div class="objective reveal">
+
+                    <i class="fas fa-search"></i>
+
+                    <h3>Investigate</h3>
+
+                    <p>
+                        Explore the main causes, risk factors,
+                        and consequences of wildfires.
+                    </p>
+
+                </div>
+
+                <div class="objective reveal">
+
+                    <i class="fas fa-lightbulb"></i>
+
+                    <h3>Develop Solutions</h3>
+
+                    <p>
+                        Explore practical strategies that can
+                        help prevent wildfires and reduce risks.
+                    </p>
+
+                </div>
+
+                <div class="objective reveal">
+
+                    <i class="fas fa-shield-heart"></i>
+
+                    <h3>Improve Safety</h3>
+
+                    <p>
+                        Understand how preparation can help
+                        protect people, homes, and communities.
+                    </p>
+
+                </div>
+
+                <div class="objective reveal">
+
+                    <i class="fas fa-seedling"></i>
+
+                    <h3>Protect Nature</h3>
+
+                    <p>
+                        Encourage responsible actions that
+                        support forests and wildlife.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TEAM -->
+
+        <section class="section team-section" id="our-team">
+
+            <div class="section-header reveal">
+
+                <span class="section-tag">THE PEOPLE BEHIND THE PROJECT</span>
+
+                <h2>
+                    Meet Our <span>Team</span>
+                </h2>
+
+                <p>
+                    We are a team of Year 9 students working together
+                    to research wildfire preparedness and create
+                    meaningful solutions.
+                </p>
+
+            </div>
+
+            <div class="team">
+
+                <div class="member reveal">
+
+                    <div class="member-image">
+
+                        <img src="Image/sone.jpg" alt="Hsu Myat Htal">
+
+                    </div>
+
+                    <h3>Hsu Myat Htal</h3>
+
+                    <p>PROJECT MEMBER</p>
+
+                    <div class="member-social">
+
+                        <a href="https://www.facebook.com/" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="member reveal">
+
+                    <div class="member-image">
+
+                        <img src="Image/saung.jpg" alt="Saung Pwint Phyu">
+
+                    </div>
+
+                    <h3>Saung Pwint Phyu</h3>
+
+                    <p>PROJECT MEMBER</p>
+
+                    <div class="member-social">
+
+                        <a href="https://www.facebook.com/" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="member reveal">
+
+                    <div class="member-image">
+
+                        <img src="Image/nan.png" alt="Nan Myat Shwe Theingi">
+
+                    </div>
+
+                    <h3>Nan Myat Shwe Theingi</h3>
+
+                    <p>PROJECT MEMBER</p>
+
+                    <div class="member-social">
+
+                        <a href="https://www.facebook.com/" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT STATISTICS -->
+
+        <section class="section stats-section">
+
+            <div class="section-header reveal">
+
+                <span class="section-tag">OUR PROJECT AT A GLANCE</span>
+
+                <h2>
+                    Our Project <span>at a Glance</span>
+                </h2>
+
+                <p>
+                    Our project focuses on important areas of
+                    wildfire preparedness and environmental protection.
+                </p>
+
+            </div>
+
+            <div class="stats">
+
+                <div class="stat reveal">
+
+                    <i class="fas fa-users"></i>
+
+                    <h3 class="counter" data-target="3">0</h3>
+
+                    <p>Team Members</p>
+
+                </div>
+
+                <div class="stat reveal">
+
+                    <i class="fas fa-leaf"></i>
+
+                    <h3 class="counter" data-target="4">0</h3>
+
+                    <p>Project Objectives</p>
+
+                </div>
+
+                <div class="stat reveal">
+
+                    <i class="fas fa-shield-alt"></i>
+
+                    <h3 class="counter" data-target="3">0</h3>
+
+                    <p>Core Goals</p>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+
+        <section class="cta-section">
+
+            <h2>
+                Together, We Can Protect Our Future
+            </h2>
+
+            <p>
+                Explore our wildfire guidelines, learn about
+                prevention strategies, and discover ways to
+                protect people, forests, and wildlife.
+            </p>
+
+            <a href="guideline.html" class="cta-btn">
+                Explore Guidelines
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+
+                    <img src="Image/infer.png"
+                        alt="Inferno Guardian Logo">
+
+                    <span>
+                        Inferno<span>Guardian</span>
+                    </span>
+
+                </div>
+
+                <p>
+                    Learn about wildfire awareness, safety, and
+                    preparedness. Together, we can protect our
+                    homes, communities, and environment.
+                </p>
+
+            </div>
+
+
+            <div class="footer-navigation">
+
+                <h4>Quick Links</h4>
+
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guideline.html">Guideline</a></li>
+                <li><a href="edu_mat.html">Educational Materials</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Image/references.pdf">References</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h4>Follow Us</h4>
+
+                <div class="social-icons">
+
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/en/" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.youtube.com/" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>&copy; 2026 Inferno Guardian. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP BUTTON -->
+
+    <button class="back-top" id="backTop"
+        onclick="scrollToTop()" aria-label="Back to top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- LOGIN MODAL -->
+
+    <div class="auth-modal" id="loginModal">
+
+        <div class="auth-box">
+
+            <span class="auth-close" onclick="closeAuth()">
+                &times;
+            </span>
+
+            <h2>Welcome Back!</h2>
+
+            <form id="loginForm">
+
+                <label>Email Address</label>
+
+                <input type="email"
+                    id="loginEmail"
+                    placeholder="Enter your email"
+                    required>
+
+                <label>Password</label>
+
+                <input type="password"
+                    id="loginPassword"
+                    placeholder="Enter your password"
+                    required>
+
+                <button type="submit" class="auth-submit">
+                    Login
+                </button>
+
+                <button type="reset" class="auth-reset">
+                    Reset
+                </button>
+
+            </form>
+
+            <p class="auth-toggle">
+
+                Don't have an account?
+
+                <a href="#" onclick="switchToRegister(event)">
+                    Sign Up
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- REGISTER MODAL -->
+
+    <div class="auth-modal" id="registerModal">
+
+        <div class="auth-box">
+
+            <span class="auth-close" onclick="closeAuth()">
+                &times;
+            </span>
+
+            <h2>Create Account</h2>
+
+            <form id="registerForm">
+
+                <label>First Name</label>
+
+                <input type="text"
+                    id="firstName"
+                    placeholder="Enter your first name"
+                    required>
+
+                <label>Last Name</label>
+
+                <input type="text"
+                    id="lastName"
+                    placeholder="Enter your last name"
+                    required>
+
+                <label>Email Address</label>
+
+                <input type="email"
+                    id="registerEmail"
+                    placeholder="Enter your email"
+                    required>
+
+                <label>Password</label>
+
+                <input type="password"
+                    id="registerPassword"
+                    placeholder="Create a password"
+                    minlength="6"
+                    required>
+
+                <button type="submit" class="auth-submit">
+                    Sign Up
+                </button>
+
+                <button type="reset" class="auth-reset">
+                    Reset
+                </button>
+
+            </form>
+
+            <p class="auth-toggle">
+
+                Already have an account?
+
+                <a href="#" onclick="switchToLogin(event)">
+                    Login
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        /* DROPDOWN */
+
+        function toggleDropdown(event) {
+
+            event.stopPropagation();
+
+            const menu = document.getElementById("featuresMenu");
+            const arrow = document.getElementById("dropdownArrow");
+            const button = document.querySelector(".dropdown-btn");
+
+            menu.classList.toggle("show");
+            arrow.classList.toggle("rotate-arrow");
+
+            button.setAttribute(
+                "aria-expanded",
+                menu.classList.contains("show")
+            );
+
+        }
+
+
+        document.addEventListener("click", function(event) {
+
+            const dropdown = document.querySelector(".dropdown");
+
+            if (!dropdown.contains(event.target)) {
+
+                document.getElementById("featuresMenu")
+                    .classList.remove("show");
+
+                document.getElementById("dropdownArrow")
+                    .classList.remove("rotate-arrow");
+
+                document.querySelector(".dropdown-btn")
+                    .setAttribute("aria-expanded", "false");
+
+            }
+
+        });
+
+
+        /* LOGIN MODAL */
+
+        function openLogin() {
+
+            closeAuth();
+
+            document.getElementById("loginModal").style.display = "flex";
+
+            document.getElementById("loginEmail").focus();
+
+        }
+
+
+        /* REGISTER MODAL */
+
+        function openRegister() {
+
+            closeAuth();
+
+            document.getElementById("registerModal").style.display = "flex";
+
+            document.getElementById("firstName").focus();
+
+        }
+
+
+        /* SWITCH MODALS */
+
+        function switchToRegister(event) {
+
+            event.preventDefault();
+
+            openRegister();
+
+        }
+
+
+        function switchToLogin(event) {
+
+            event.preventDefault();
+
+            openLogin();
+
+        }
+
+
+        /* CLOSE MODALS */
+
+        function closeAuth() {
+
+            document.getElementById("loginModal").style.display = "none";
+
+            document.getElementById("registerModal").style.display = "none";
+
+        }
+
+
+        /* CLICK OUTSIDE MODAL */
+
+        document.querySelectorAll(".auth-modal").forEach(function(modal) {
+
+            modal.addEventListener("click", function(event) {
+
+                if (event.target === modal) {
+                    closeAuth();
+                }
+
+            });
+
+        });
+
+
+        /* ESCAPE KEY */
+
+        document.addEventListener("keydown", function(event) {
+
+            if (event.key === "Escape") {
+                closeAuth();
+            }
+
+        });
+
+
+        /* REGISTER FORM */
+
+        document.getElementById("registerForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                const firstName =
+                    document.getElementById("firstName").value.trim();
+
+                const lastName =
+                    document.getElementById("lastName").value.trim();
+
+                const email =
+                    document.getElementById("registerEmail").value.trim();
+
+                const password =
+                    document.getElementById("registerPassword").value;
+
+                const existingEmail = localStorage.getItem("studentEmail");
+
+                if (existingEmail === email) {
+
+                    alert("This email is already registered!");
+
+                    return;
+
+                }
+
+                localStorage.setItem("studentFirstName", firstName);
+
+                localStorage.setItem("studentLastName", lastName);
+
+                localStorage.setItem("studentEmail", email);
+
+                localStorage.setItem("studentPassword", password);
+
+                alert("Registration Successful! Please Login.");
+
+                this.reset();
+
+                closeAuth();
+
+                openLogin();
+
+            });
+
+
+        /* LOGIN FORM */
+
+        document.getElementById("loginForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                const email =
+                    document.getElementById("loginEmail").value.trim();
+
+                const password =
+                    document.getElementById("loginPassword").value;
+
+                const registeredEmail =
+                    localStorage.getItem("studentEmail");
+
+                const registeredPassword =
+                    localStorage.getItem("studentPassword");
+
+                if (
+                    email === registeredEmail &&
+                    password === registeredPassword &&
+                    registeredEmail !== null
+                ) {
+
+                    const firstName =
+                        localStorage.getItem("studentFirstName");
+
+                    alert(
+                        "Welcome to Inferno Guardian, " +
+                        firstName + "!"
+                    );
+
+                    this.reset();
+
+                    closeAuth();
+
+                } else {
+
+                    alert("Invalid email or password. Please try again.");
+
+                }
+
+            });
+
+
+        /* SCROLL REVEAL ANIMATION */
+
+        const revealElements = document.querySelectorAll(".reveal");
+
+        const revealObserver = new IntersectionObserver(function(entries) {
+
+            entries.forEach(function(entry) {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    revealObserver.unobserve(entry.target);
+
+                }
+
+            });
+
+        }, {
+            threshold: 0.15
+        });
+
+        revealElements.forEach(function(element) {
+
+            revealObserver.observe(element);
+
+        });
+
+
+        /* BACK TO TOP BUTTON */
+
+        const backTop = document.getElementById("backTop");
+
+        window.addEventListener("scroll", function() {
+
+            if (window.scrollY > 400) {
+
+                backTop.classList.add("show");
+
+            } else {
+
+                backTop.classList.remove("show");
+
+            }
+
+        });
+
+        function scrollToTop() {
+
+            window.scrollTo({
+
+                top: 0,
+
+                behavior: "smooth"
+
+            });
+
+        }
+
+
+        /* ANIMATED STATISTICS */
+
+        const counters = document.querySelectorAll(".counter");
+
+        const counterObserver = new IntersectionObserver(function(entries) {
+
+            entries.forEach(function(entry) {
+
+                if (entry.isIntersecting) {
+
+                    const counter = entry.target;
+
+                    const target = Number(counter.dataset.target);
+
+                    let current = 0;
+
+                    const increment = Math.max(
+                        1,
+                        Math.ceil(target / 40)
+                    );
+
+                    const updateCounter = function() {
+
+                        current += increment;
+
+                        if (current >= target) {
+
+                            counter.textContent = target;
+
+                        } else {
+
+                            counter.textContent = current;
+
+                            requestAnimationFrame(updateCounter);
+
+                        }
+
+                    };
+
+                    updateCounter();
+
+                    counterObserver.unobserve(counter);
+
+                }
+
+            });
+
+        }, {
+            threshold: 0.5
+        });
+
+
+        counters.forEach(function(counter) {
+
+            counterObserver.observe(counter);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

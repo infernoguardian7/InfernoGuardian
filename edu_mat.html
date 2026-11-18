@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Educational Materials - Inferno Guardian</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="guideline.css">
+    <link rel="stylesheet" href="edu_mat.css">
+
+    <link rel="icon" href="Image/infer.png">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="main-header">
+
+    <a href="index.html" class="logo-container">
+
+        <div class="circular-logo">
+            <img src="Image/infer.png" alt="Logo">
+        </div>
+
+        <span class="logo-text">
+            Inferno<span>Guardian</span>
+        </span>
+
+    </a>
+
+    <nav class="navbar">
+   
+        <a href="index.html">Home</a>
+
+        <div class="dropdown">
+
+            <button class="dropdown-btn active"
+                onclick="toggleDropdown(event)"
+                aria-expanded="false">
+
+                Features
+                <i class="fas fa-chevron-down arrow-icon"
+                id="dropdownArrow"></i>
+
+            </button>
+
+            <div class="dropdown-content" id="featuresMenu">
+
+                <a href="guideline.html">
+                    <i class="fas fa-book-open"></i>
+                    Guideline
+                </a>
+
+                <a href="edu_mat.html" class="active">
+                    <i class="fas fa-shield-alt"></i>
+                    Educational materials
+                </a>
+
+            </div>
+
+        </div>
+
+        <a href="quiz.html">Quiz</a>
+        <a href="aboutus.html">About Us</a>
+
+        <div class="auth-buttons">
+
+            <button class="login-nav" onclick="openLogin()">
+                Login
+            </button>
+
+            <button class="register-nav" onclick="openRegister()">
+                Sign Up
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- HERO SECTION -->
+
+<section class="education-hero">
+
+    <span class="education-tag">
+        <i class="fas fa-fire"></i>
+        LEARN • PREVENT • PROTECT
+    </span>
+
+    <h1>
+        Educational <span>Materials</span>
+    </h1>
+
+    <p>
+        Knowledge is one of the strongest ways to prevent wildfires
+        and protect our communities. Explore our educational
+        resources to understand wildfire dangers and learn how
+        to stay safe.
+    </p>
+
+</section>
+
+
+<!-- INTRODUCTION -->
+
+<section class="education-intro">
+
+    <div class="section-title">
+
+        <h2>
+            Learn More About <span>Wildfires</span>
+        </h2>
+
+        <p>
+            Explore our learning resources and improve your wildfire awareness.
+        </p>
+
+    </div>
+
+    <p>
+        Wildfires can happen naturally or because of human activities.
+        They can destroy forests, damage homes, harm wildlife, and
+        affect people's health. Learning about their causes, effects,
+        and prevention methods can help everyone make safer decisions.
+        These materials are designed to make wildfire information
+        easier to understand.
+    </p>
+
+</section>
+
+
+<!-- EDUCATIONAL MATERIALS -->
+
+<section class="materials-section">
+
+    <div class="section-title">
+
+        <h2>
+            Our Educational <span>Resources</span>
+        </h2>
+
+        <p>
+            Explore our poster, educational article, and expert video.
+        </p>
+
+    </div>
+
+
+    <!-- POSTERS -->
+
+<div class="poster-section">
+
+    <div class="poster-card">
+
+        <div class="poster-image">
+            <img src="Image/poster.jpg"
+                 alt="Wildfire awareness poster in English">
+        </div>
+
+        <div class="poster-info">
+            <span class="language-label">ENGLISH VERSION</span>
+            <h3>Wildfire Awareness Poster</h3>
+            <p>Learn about wildfire prevention and safety through our English educational poster.</p>
+        </div>
+
+    </div>
+
+
+    <div class="poster-card">
+
+        <div class="poster-image">
+            <img src="Image/Natural Hazards Poster.png"
+                 alt="Wildfire awareness poster in Burmese">
+        </div>
+
+        <div class="poster-info">
+            <span class="language-label">BURMESE VERSION</span>
+            <h3>တောမီးလောင်မှု အသိပညာပေးပိုစတာ</h3>
+            <p>မြန်မာဘာသာဖြင့် တောမီးကာကွယ်ရေးနှင့် ဘေးကင်းလုံခြုံရေးဆိုင်ရာ အသိပညာများကို လေ့လာနိုင်ပါသည်။</p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ENGLISH ARTICLE -->
+<div class="material-card reverse-card">
+
+    <div class="article-image">
+        <img src="Image/article.png"
+             alt="Wildfire educational article in English">
+    </div>
+
+    <div class="material-content">
+
+        <span class="material-label">
+            <i class="fas fa-book-open"></i>
+            EDUCATIONAL ARTICLE (ENGLISH)
+        </span>
+
+        <h3>Understanding Wildfires and Their Effects</h3>
+
+        <p>
+            Explore our educational article to understand the
+            causes of wildfires, their environmental and social
+            impacts, and effective ways to prevent them.
+        </p>
+
+        <p class="creator-text">
+            Written by: Group 7
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- BURMESE ARTICLE -->
+<div class="material-card">
+
+    <div class="article-image">
+        <img src="Image/mmarti.png"
+             alt="တောမီးအန္တရာယ် ပညာပေးဆောင်းပါး">
+    </div>
+
+    <div class="material-content">
+
+        <span class="material-label">
+            <i class="fas fa-book-open"></i>
+            ပညာပေးဆောင်းပါး (မြန်မာဘာသာ)
+        </span>
+
+        <h3>တောမီးလောင်ကျွမ်းရခြင်း အကြောင်းရင်းများနှင့် အကျိုးသက်ရောက်မှုများ</h3>
+
+        <p>
+            တောမီးလောင်ကျွမ်းရသည့် အကြောင်းရင်းများ၊ သဘာဝပတ်ဝန်းကျင်နှင့် 
+            လူမှုဘဝအပေါ် ထိခိုက်မှုများ၊ ထိရောက်သော ကာကွယ်တားဆီးနည်းများကို 
+            မြန်မာဘာသာဖြင့် အသေးစိတ် လေ့လာဖတ်ရှုနိုင်ပါသည်။
+        </p>
+
+        <p class="creator-text">
+            ရေးသားသူ - Group 7
+        </p>
+
+    </div>
+
+</div>
+
+<!-- STORY (ENGLISH) -->
+<div class="material-card reverse-card">
+
+    <div class="story-image">
+        <img src="Image/Before the Next Spark.png"
+             alt="Before the Next Spark - Story by Group 7">
+    </div>
+
+    <div class="material-content">
+
+        <span class="material-label">
+            <i class="fas fa-book-reader"></i>
+            SHORT STORY
+        </span>
+
+        <h3>Before the Next Spark</h3>
+
+        <p>
+            On a hot, dry afternoon in Green Valley, students Noah and Blair spot
+            smoke rising across a dry grass field on their walk home from school.
+            After alerting nearby adults in time for firefighters to save the
+            village, the two friends rally their classmates to turn classroom
+            knowledge into real-world wildfire prevention.
+        </p>
+
+        <blockquote class="story-quote">
+            <i class="fas fa-quote-left"></i>
+            <p>“Knowledge is useful when we actually do something with it.”</p>
+            <span>— Blair, Green Valley</span>
+        </blockquote>
+
+        <div class="story-meta">
+            <div><strong>Setting:</strong> Green Valley Village</div>
+            <div><strong>Characters:</strong> Noah &amp; Blair</div>
+            <div><strong>Message:</strong> Prevention &amp; Community Action</div>
+        </div>
+
+        <p class="creator-text">
+            Story by: Group 7
+        </p>
+
+    </div>
+
+</div>
+
+
+    <!-- EXPERT VIDEO -->
+
+    <div class="material-card">
+
+        <div class="video-container">
+
+            <video controls poster="Image/Surrounded by Fire - Etsy UK.jpg">
+
+                <source src="Image/interview.MP4"
+                type="video/mp4">
+
+            </video>
+
+        </div>
+
+        <div class="material-content">
+
+            <span class="material-label">
+                <i class="fas fa-video"></i>
+                EXPERT VIDEO
+            </span>
+
+            <h3>Learn from an Expert</h3>
+
+            <p>
+                Watch this educational video to learn more about
+                wildfires, their dangers, and how people can
+                protect themselves and their communities.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ADDITIONAL LEARNING -->
+
+<section class="extra-learning">
+
+    <div class="section-title">
+
+        <h2>
+            More Things to <span>Learn</span>
+        </h2>
+
+        <p>
+            Remember these important facts about wildfire safety.
+        </p>
+
+    </div>
+
+    <div class="learning-grid">
+
+        <div class="learning-card">
+
+            <div class="learning-icon">
+                <i class="fas fa-fire"></i>
+            </div>
+
+            <h3>Common Causes</h3>
+
+            <p>
+                Wildfires may start from lightning, unattended
+                campfires, burning rubbish, and discarded cigarettes.
+            </p>
+
+        </div>
+
+
+        <div class="learning-card">
+
+            <div class="learning-icon">
+                <i class="fas fa-tree"></i>
+            </div>
+
+            <h3>Environmental Effects</h3>
+
+            <p>
+                Wildfires can destroy forests, damage habitats,
+                kill wildlife, and pollute the air.
+            </p>
+
+        </div>
+
+
+        <div class="learning-card">
+
+            <div class="learning-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+
+            <h3>Fire Prevention</h3>
+
+            <p>
+                Never leave fires unattended. Keep flammable
+                materials away from flames and follow fire safety rules.
+            </p>
+
+        </div>
+
+
+        <div class="learning-card">
+
+            <div class="learning-icon">
+                <i class="fas fa-people-group"></i>
+            </div>
+
+            <h3>Community Awareness</h3>
+
+            <p>
+                Share safety information with friends and family.
+                Communities can work together to reduce wildfire risks.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SAFETY MESSAGE -->
+
+<section class="education-warning">
+
+    <i class="fas fa-triangle-exclamation"></i>
+
+    <h2>Be Aware. Be Prepared. Stay Safe.</h2>
+
+    <p>
+        Wildfire prevention is everyone's responsibility.
+        Learn the risks, follow safety guidelines, and help
+        protect your community and the environment.
+    </p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <img src="Image/infer.png"
+                alt="Inferno Guardian Logo">
+
+                <span>
+                    Inferno<span>Guardian</span>
+                </span>
+
+            </div>
+
+            <p>
+                Learn about wildfire awareness, safety, and preparedness.
+                Together, we can protect our homes, communities, and environment.
+            </p>
+
+        </div>
+
+
+        <div class="footer-navigation">
+
+            <h4>Quick Links</h4>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guideline.html">Guideline</a></li>
+                <li><a href="edu_mat.html">Educational Materials</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Image/references.pdf">References</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-social">
+
+            <h4>Follow Us</h4>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/en/" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.youtube.com/" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>&copy; 2026 Inferno Guardian. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+
+    <button class="back-top" id="backTop"
+        onclick="scrollToTop()" aria-label="Back to top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+<!-- LOGIN MODAL -->
+
+<div class="auth-modal" id="loginModal">
+
+    <div class="auth-box">
+
+        <span class="auth-close" onclick="closeAuth()">&times;</span>
+
+        <h2>Welcome Back!</h2>
+
+        <form id="loginForm">
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="auth-submit">Login</button>
+            <button type="reset" class="auth-reset">Reset</button>
+
+        </form>
+
+        <p class="auth-toggle">
+            Don't have an account?
+            <a href="#" onclick="switchToRegister(event)">Sign Up</a>
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- REGISTER MODAL -->
+
+<div class="auth-modal" id="registerModal">
+
+    <div class="auth-box">
+
+        <span class="auth-close" onclick="closeAuth()">&times;</span>
+
+        <h2>Create Account</h2>
+
+        <form id="registerForm">
+
+            <label>First Name</label>
+            <input type="text" placeholder="Enter your first name" required>
+
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter your last name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Create a password"
+            minlength="6" required>
+
+            <button type="submit" class="auth-submit">Sign Up</button>
+            <button type="reset" class="auth-reset">Reset</button>
+
+        </form>
+
+        <p class="auth-toggle">
+            Already have an account?
+            <a href="#" onclick="switchToLogin(event)">Login</a>
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+// FEATURES DROPDOWN
+
+function toggleDropdown(event) {
+
+    event.stopPropagation();
+
+    const menu = document.getElementById("featuresMenu");
+    const arrow = document.getElementById("dropdownArrow");
+    const button = document.querySelector(".dropdown-btn");
+
+    menu.classList.toggle("show");
+    arrow.classList.toggle("rotate-arrow");
+
+    button.setAttribute(
+        "aria-expanded",
+        menu.classList.contains("show")
+    );
+
+}
+
+
+// CLOSE DROPDOWN
+
+document.addEventListener("click", function(event) {
+
+    const dropdown = document.querySelector(".dropdown");
+    const menu = document.getElementById("featuresMenu");
+    const arrow = document.getElementById("dropdownArrow");
+    const button = document.querySelector(".dropdown-btn");
+
+    if (!dropdown.contains(event.target)) {
+
+        menu.classList.remove("show");
+        arrow.classList.remove("rotate-arrow");
+        button.setAttribute("aria-expanded", "false");
+
+    }
+
+});
+
+
+// LOGIN AND REGISTER
+
+function openLogin() {
+
+    closeAuth();
+    document.getElementById("loginModal").style.display = "flex";
+
+}
+
+function openRegister() {
+
+    closeAuth();
+    document.getElementById("registerModal").style.display = "flex";
+
+}
+
+function switchToRegister(event) {
+
+    event.preventDefault();
+    openRegister();
+
+}
+
+function switchToLogin(event) {
+
+    event.preventDefault();
+    openLogin();
+
+}
+
+function closeAuth() {
+
+    document.getElementById("loginModal").style.display = "none";
+    document.getElementById("registerModal").style.display = "none";
+
+}
+
+
+// CLOSE MODAL WHEN CLICKING OUTSIDE
+
+document.querySelectorAll(".auth-modal").forEach(function(modal) {
+
+    modal.addEventListener("click", function(event) {
+
+        if (event.target === modal) {
+            closeAuth();
+        }
+
+    });
+
+});
+
+
+// CLOSE MODAL WITH ESCAPE KEY
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+        closeAuth();
+    }
+
+});
+
+
+// PREVENT FORM RELOADING THE PAGE
+
+document.querySelectorAll(".auth-box form").forEach(function(form) {
+
+    form.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+        alert("This form is a demonstration. Account functions need to be connected.");
+
+    });
+
+});
+
+/* BACK TO TOP BUTTON */
+
+        const backTop = document.getElementById("backTop");
+
+        window.addEventListener("scroll", function() {
+
+            if (window.scrollY > 400) {
+
+                backTop.classList.add("show");
+
+            } else {
+
+                backTop.classList.remove("show");
+
+            }
+
+        });
+
+        function scrollToTop() {
+
+            window.scrollTo({
+
+                top: 0,
+
+                behavior: "smooth"
+
+            });
+
+        }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz - Inferno Guardian</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="guideline.css">
+    <link rel="stylesheet" href="quiz.css">
+
+    <link rel="icon" href="Image/infer.png">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="main-header">
+
+    <a href="index.html" class="logo-container">
+
+        <div class="circular-logo">
+            <img src="Image/infer.png" alt="Logo">
+        </div>
+
+        <span class="logo-text">
+            Inferno<span>Guardian</span>
+        </span>
+
+    </a>
+
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+
+        <a href="index.html">Home</a>
+
+        <!-- FEATURES DROPDOWN -->
+
+        <div class="dropdown">
+
+            <button class="dropdown-btn"
+                onclick="toggleDropdown(event)"
+                aria-expanded="false">
+
+                Features
+
+                <i class="fas fa-chevron-down arrow-icon"
+                id="dropdownArrow"></i>
+
+            </button>
+
+
+            <div class="dropdown-content" id="featuresMenu">
+
+                <a href="guideline.html">
+                    <i class="fas fa-book-open"></i>
+                    Guideline
+                </a>
+
+                <a href="edu_mat.html">
+                    <i class="fas fa-shield-alt"></i>
+                    Educational materials
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <a href="quiz.html" class="active">Quiz</a>
+
+        <a href="aboutus.html">About Us</a>
+
+
+        <!-- LOGIN AND SIGN UP -->
+
+        <div class="auth-buttons">
+
+            <button class="login-nav" onclick="openLogin()">
+                Login
+            </button>
+
+            <button class="register-nav" onclick="openRegister()">
+                Sign Up
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- QUIZ HERO SECTION -->
+
+<section class="quiz-hero">
+
+    <span class="quiz-tag">
+        <i class="fas fa-fire"></i>
+        TEST YOUR KNOWLEDGE
+    </span>
+
+    <h1>
+        How Much Do You Know About <span>Wildfires?</span>
+    </h1>
+
+    <p>
+        Test what you have learned from our Guideline and Educational
+        Materials pages. Learn how to prevent wildfires and protect
+        yourself, your family, and your community.
+    </p>
+
+    <a href="#quiz" class="quiz-hero-btn">
+        Start Quiz <i class="fas fa-arrow-right"></i>
+    </a>
+
+</section>
+
+
+<!-- QUIZ INTRODUCTION -->
+
+<section class="quiz-intro">
+
+    <div class="quiz-section-title">
+
+        <h2>Wildfire Safety <span>Quiz</span></h2>
+
+        <p>
+            Answer all 7 questions and see how well you understand
+            wildfire prevention and emergency preparedness.
+        </p>
+
+    </div>
+
+
+    <div class="quiz-info-container">
+
+        <div class="quiz-info-card">
+
+            <i class="fas fa-list-check"></i>
+
+            <h3>7 Questions</h3>
+
+            <p>Test your wildfire knowledge.</p>
+
+        </div>
+
+
+        <div class="quiz-info-card">
+
+            <i class="fas fa-book-open"></i>
+
+            <h3>Learn and Review</h3>
+
+            <p>Questions based on our website.</p>
+
+        </div>
+
+
+        <div class="quiz-info-card">
+
+            <i class="fas fa-trophy"></i>
+
+            <h3>Get Your Score</h3>
+
+            <p>Check your results after finishing.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- QUIZ QUESTIONS -->
+
+<section class="quiz-section" id="quiz">
+
+    <div class="quiz-section-title">
+
+        <h2>Let's <span>Get Started!</span></h2>
+
+        <p>Choose one correct answer for each question.</p>
+
+    </div>
+
+
+    <form id="quizForm">
+
+
+        <!-- QUESTION 1 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 01</span>
+
+            <h3>
+                What should you do if you notice smoke or fire
+                near your community?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q1" value="a">
+                <span>Ignore it and continue your activities.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q1" value="b">
+                <span>Report it to emergency services.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q1" value="c">
+                <span>Go closer to investigate.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q1" value="d">
+                <span>Take photos of the fire.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 2 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 02</span>
+
+            <h3>
+                According to our Guideline page, which items
+                should be included in an emergency kit?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q2" value="a">
+                <span>Toys and decorations.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q2" value="b">
+                <span>Gaming devices and books only.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q2" value="c">
+                <span>Drinking water, food, first-aid supplies, and a flashlight.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q2" value="d">
+                <span>Extra furniture and cooking equipment.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 3 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 03</span>
+
+            <h3>
+                What should you do when authorities issue
+                a wildfire evacuation order?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q3" value="a">
+                <span>Follow the evacuation route and leave immediately.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q3" value="b">
+                <span>Stay home and wait for the fire.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q3" value="c">
+                <span>Go closer to check the fire.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q3" value="d">
+                <span>Wait until all your belongings are packed.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 4 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 04</span>
+
+            <h3>
+                Why should dry leaves, dead branches, and
+                flammable materials be removed from around your home?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q4" value="a">
+                <span>To make the garden look bigger.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q4" value="b">
+                <span>To reduce materials that can easily catch fire.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q4" value="c">
+                <span>To attract more animals.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q4" value="d">
+                <span>To make the soil dry.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 5 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 05</span>
+
+            <h3>
+                According to wildfire safety information,
+                which weather conditions can increase wildfire risk?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q5" value="a">
+                <span>Cold and rainy weather.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q5" value="b">
+                <span>Hot, dry, and windy weather.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q5" value="c">
+                <span>Snowy weather.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q5" value="d">
+                <span>Cool and foggy weather.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 6 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 06</span>
+
+            <h3>
+                What is the recommended action if your clothes
+                catch fire?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q6" value="a">
+                <span>Run as fast as possible.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q6" value="b">
+                <span>Wave your arms to put out the flames.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q6" value="c">
+                <span>Stop, drop, and roll.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q6" value="d">
+                <span>Hide under a blanket while standing.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUESTION 7 -->
+
+        <div class="quiz-card">
+
+            <span class="question-number">QUESTION 07</span>
+
+            <h3>
+                Why should families prepare an evacuation plan
+                before a wildfire happens?
+            </h3>
+
+            <label class="quiz-option">
+                <input type="radio" name="q7" value="a">
+                <span>To help everyone know where to go and stay safe.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q7" value="b">
+                <span>To make the evacuation journey longer.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q7" value="c">
+                <span>To avoid listening to emergency warnings.</span>
+            </label>
+
+            <label class="quiz-option">
+                <input type="radio" name="q7" value="d">
+                <span>To collect as many belongings as possible.</span>
+            </label>
+
+        </div>
+
+
+        <!-- QUIZ BUTTONS -->
+
+        <div class="quiz-buttons">
+
+            <button type="button" class="submit-btn"
+                onclick="checkAnswers()">
+
+                Submit Answers
+                <i class="fas fa-check"></i>
+
+            </button>
+
+
+            <button type="reset" class="reset-btn"
+                onclick="resetQuiz()">
+
+                Reset Quiz
+                <i class="fas fa-rotate-right"></i>
+
+            </button>
+
+        </div>
+
+    </form>
+
+
+    <!-- RESULT -->
+
+    <div class="result-box" id="resultBox">
+
+        <i class="fas fa-trophy" id="resultIcon"></i>
+
+        <h2 id="resultTitle">Your Result</h2>
+
+        <p id="scoreText"></p>
+
+        <p id="resultMessage"></p>
+
+    </div>
+
+</section>
+
+
+<!-- WARNING SECTION -->
+
+<section class="quiz-warning">
+
+    <i class="fas fa-triangle-exclamation"></i>
+
+    <div>
+
+        <h2>Remember: Your Safety Comes First!</h2>
+
+        <p>
+            Knowing how to prevent wildfires and respond to emergencies
+            can protect lives and communities. Visit our Guideline and
+            Educational Materials pages to learn more.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <img src="Image/infer.png" alt="Inferno Guardian Logo">
+
+                <span>
+                    Inferno<span>Guardian</span>
+                </span>
+
+            </div>
+
+            <p>
+                Learn about wildfire awareness, safety, and preparedness.
+                Together, we can protect our homes, communities, and environment.
+            </p>
+
+        </div>
+
+
+        <div class="footer-navigation">
+
+            <h4>Quick Links</h4>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guideline.html">Guideline</a></li>
+                <li><a href="edu_mat.html">Educational Materials</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="Image/references.pdf">References</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-social">
+
+            <h4>Follow Us</h4>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/en/" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.youtube.com/" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>&copy; 2026 Inferno Guardian. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+
+    <button class="back-top" id="backTop"
+        onclick="scrollToTop()" aria-label="Back to top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+
+
+<!-- LOGIN MODAL -->
+
+<div class="auth-modal" id="loginModal">
+
+    <div class="auth-box">
+
+        <span class="auth-close" onclick="closeAuth()">&times;</span>
+
+        <h2>Welcome Back!</h2>
+
+        <form id="loginForm">
+
+            <label>Email Address</label>
+
+            <input type="email"
+                id="loginEmail"
+                placeholder="Enter your email"
+                required>
+
+
+            <label>Password</label>
+
+            <input type="password"
+                id="loginPassword"
+                placeholder="Enter your password"
+                required>
+
+
+            <button type="submit" class="auth-submit">
+                Login
+            </button>
+
+            <button type="reset" class="auth-reset">
+                Reset
+            </button>
+
+        </form>
+
+        <p class="auth-toggle">
+
+            Don't have an account?
+
+            <a href="#" onclick="switchToRegister(event)">
+                Sign Up
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- REGISTER MODAL -->
+
+<div class="auth-modal" id="registerModal">
+
+    <div class="auth-box">
+
+        <span class="auth-close" onclick="closeAuth()">&times;</span>
+
+        <h2>Create Account</h2>
+
+        <form id="registerForm">
+
+            <label>First Name</label>
+
+            <input type="text"
+                id="firstName"
+                placeholder="Enter your first name"
+                required>
+
+
+            <label>Last Name</label>
+
+            <input type="text"
+                id="lastName"
+                placeholder="Enter your last name"
+                required>
+
+
+            <label>Email Address</label>
+
+            <input type="email"
+                id="registerEmail"
+                placeholder="Enter your email"
+                required>
+
+
+            <label>Password</label>
+
+            <input type="password"
+                id="registerPassword"
+                placeholder="Create a password"
+                minlength="6"
+                required>
+
+
+            <button type="submit" class="auth-submit">
+                Sign Up
+            </button>
+
+            <button type="reset" class="auth-reset">
+                Reset
+            </button>
+
+        </form>
+
+        <p class="auth-toggle">
+
+            Already have an account?
+
+            <a href="#" onclick="switchToLogin(event)">
+                Login
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+// FEATURES DROPDOWN
+
+function toggleDropdown(event) {
+
+    event.stopPropagation();
+
+    const menu = document.getElementById("featuresMenu");
+    const arrow = document.getElementById("dropdownArrow");
+    const button = document.querySelector(".dropdown-btn");
+
+    menu.classList.toggle("show");
+
+    arrow.classList.toggle("rotate-arrow");
+
+    button.setAttribute(
+        "aria-expanded",
+        menu.classList.contains("show")
+    );
+
+}
+
+
+// CLOSE DROPDOWN WHEN CLICKING OUTSIDE
+
+document.addEventListener("click", function(event) {
+
+    const dropdown = document.querySelector(".dropdown");
+    const menu = document.getElementById("featuresMenu");
+    const arrow = document.getElementById("dropdownArrow");
+    const button = document.querySelector(".dropdown-btn");
+
+    if (!dropdown.contains(event.target)) {
+
+        menu.classList.remove("show");
+        arrow.classList.remove("rotate-arrow");
+
+        button.setAttribute("aria-expanded", "false");
+
+    }
+
+});
+
+
+// OPEN LOGIN MODAL
+
+function openLogin() {
+
+    closeAuth();
+
+    document.getElementById("loginModal").style.display = "flex";
+
+}
+
+
+// OPEN REGISTER MODAL
+
+function openRegister() {
+
+    closeAuth();
+
+    document.getElementById("registerModal").style.display = "flex";
+
+}
+
+
+// SWITCH TO REGISTER
+
+function switchToRegister(event) {
+
+    event.preventDefault();
+
+    closeAuth();
+
+    openRegister();
+
+}
+
+
+// SWITCH TO LOGIN
+
+function switchToLogin(event) {
+
+    event.preventDefault();
+
+    closeAuth();
+
+    openLogin();
+
+}
+
+
+// CLOSE MODALS
+
+function closeAuth() {
+
+    document.getElementById("loginModal").style.display = "none";
+
+    document.getElementById("registerModal").style.display = "none";
+
+}
+
+
+// CLOSE WHEN CLICKING OUTSIDE
+
+document.querySelectorAll(".auth-modal").forEach(function(modal) {
+
+    modal.addEventListener("click", function(event) {
+
+        if (event.target === modal) {
+
+            closeAuth();
+
+        }
+
+    });
+
+});
+
+
+// CLOSE USING ESCAPE KEY
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+
+        closeAuth();
+
+    }
+
+});
+
+
+// REGISTRATION FORM
+
+document.getElementById("registerForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const firstName = document.getElementById("firstName").value.trim();
+    const lastName = document.getElementById("lastName").value.trim();
+    const email = document.getElementById("registerEmail").value.trim();
+    const password = document.getElementById("registerPassword").value;
+
+
+    if (localStorage.getItem("studentEmail") === email) {
+
+        alert("This email is already registered!");
+
+        return;
+
+    }
+
+
+    localStorage.setItem("studentFirstName", firstName);
+    localStorage.setItem("studentLastName", lastName);
+    localStorage.setItem("studentEmail", email);
+    localStorage.setItem("studentPassword", password);
+
+
+    alert("Registration Successful! Please Login.");
+
+    this.reset();
+
+    closeAuth();
+
+    openLogin();
+
+});
+
+
+// LOGIN FORM
+
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const email = document.getElementById("loginEmail").value.trim();
+    const password = document.getElementById("loginPassword").value;
+
+    const registeredEmail = localStorage.getItem("studentEmail");
+    const registeredPassword = localStorage.getItem("studentPassword");
+
+
+    if (email === registeredEmail && password === registeredPassword) {
+
+        const firstName = localStorage.getItem("studentFirstName");
+
+        alert("Welcome to Inferno Guardian, " + firstName + "!");
+
+        this.reset();
+
+        closeAuth();
+
+    } else {
+
+        alert("Invalid email or password. Please try again.");
+
+    }
+
+});
+
+
+// QUIZ ANSWERS
+
+const answers = {
+
+    q1: "b",
+    q2: "c",
+    q3: "a",
+    q4: "b",
+    q5: "b",
+    q6: "c",
+    q7: "a"
+
+};
+
+
+// CHECK ANSWERS
+
+function checkAnswers() {
+
+    let score = 0;
+
+    for (let i = 1; i <= 7; i++) {
+
+        const selectedAnswer = document.querySelector(
+            'input[name="q' + i + '"]:checked'
+        );
+
+        if (!selectedAnswer) {
+
+            alert("Please answer all 7 questions before submitting.");
+
+            return;
+
+        }
+
+        if (selectedAnswer.value === answers["q" + i]) {
+
+            score++;
+
+        }
+
+    }
+
+
+    const resultBox = document.getElementById("resultBox");
+    const resultTitle = document.getElementById("resultTitle");
+    const scoreText = document.getElementById("scoreText");
+    const resultMessage = document.getElementById("resultMessage");
+    const resultIcon = document.getElementById("resultIcon");
+
+
+    resultBox.style.display = "block";
+
+    scoreText.textContent = "You scored " + score + " out of 7!";
+
+
+    if (score === 7) {
+
+        resultTitle.textContent = "Excellent Work!";
+
+        resultMessage.textContent =
+            "Perfect score! You have excellent knowledge of wildfire safety.";
+
+        resultIcon.className = "fas fa-trophy";
+
+    }
+
+    else if (score >= 5) {
+
+        resultTitle.textContent = "Great Job!";
+
+        resultMessage.textContent =
+            "You understand most wildfire safety rules. Keep learning!";
+
+        resultIcon.className = "fas fa-star";
+
+    }
+
+    else if (score >= 3) {
+
+        resultTitle.textContent = "Good Try!";
+
+        resultMessage.textContent =
+            "You have some knowledge. Review our Guideline page to improve.";
+
+        resultIcon.className = "fas fa-book-open";
+
+    }
+
+    else {
+
+        resultTitle.textContent = "Keep Learning!";
+
+        resultMessage.textContent =
+            "Visit our Guideline and Educational Materials pages to learn more.";
+
+        resultIcon.className = "fas fa-fire";
+
+    }
+
+
+    resultBox.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+}
+
+
+// RESET QUIZ
+
+function resetQuiz() {
+
+    document.getElementById("resultBox").style.display = "none";
+
+}
+
+/* BACK TO TOP BUTTON */
+
+        const backTop = document.getElementById("backTop");
+
+        window.addEventListener("scroll", function() {
+
+            if (window.scrollY > 400) {
+
+                backTop.classList.add("show");
+
+            } else {
+
+                backTop.classList.remove("show");
+
+            }
+
+        });
+
+        function scrollToTop() {
+
+            window.scrollTo({
+
+                top: 0,
+
+                behavior: "smooth"
+
+            });
+
+        }
+
+</script>
+
+</body>
+</html>
